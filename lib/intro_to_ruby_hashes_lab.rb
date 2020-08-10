@@ -1,25 +1,15 @@
 def new_hash
-  empty = {}
-  return empty
+  {}
 end
 
 def my_hash
-  twin_peaks = {
-    :character => "Log Lady"
-  }
-  return twin_peaks
+  new_hash = {name: "Noah"}
 end
 
 def pioneer
-  hash = {
-    :name => 'Grace Hopper'
-  }
-  return hash
+  hash = {name: "Grace Hopper"}
 end
 
-
-def id_hash_generator(number)
-  hash = {
-    :id => number
-  }
+def id_hash_generator (integer)
+  hash = {id: integer}
 end
